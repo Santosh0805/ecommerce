@@ -4,7 +4,7 @@ import axios from 'axios';
 import './ProductDetails.css';
 
 
-function ProductDetails() {
+function Productdetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
 
@@ -27,4 +27,4 @@ function ProductDetails() {
   );
 }
 
-export default ProductDetails;
+export default Productdetails;
